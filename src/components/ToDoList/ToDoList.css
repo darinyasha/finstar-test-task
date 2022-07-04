@@ -1,0 +1,29 @@
+.list-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.window {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #6e6c78;
+  min-height:900px;
+
+}
+
+.btn {
+  color: #3b3a3d;
+  border-radius: 3px;
+  align-self: safe center;
+  width: 10%;
+  height: 20%;
+  margin: 20px;
+}
